@@ -1,0 +1,20 @@
+
+DELETE http://localhost:8000/deleteClient/59761c23b30d971669fb42ff HTTP/1.1
+
+###
+GET http://localhost:8000/allClients HTTP/1.1
+
+###
+
+POST http://localhost:8000/addClient/michael+matos/30/male/ffactory/mike@matos.com/8091234567/malaquias+gil HTTP/1.1
+
+###
+
+GET http://localhost:8000/hangman/word/1006 HTTP/1.1
+
+###
+GET http://localhost:8000/hangman/word HTTP/1.1
+
+###
+
+GET http://localhost:8000/hangman/guess/1006/y HTTP/1.1
